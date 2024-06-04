@@ -43,7 +43,7 @@ plt.ylabel('Kategori Produk')
 plt.title('10 Penjualan Terbanyak Berdasarkan Kategori Produk')
 st.pyplot(fig_produk)
 
-# Visualisasi distribusi geografis pelanggan
+# Visualisasi  distribusi geografis pelanggan
 st.subheader('Distribusi Geografis Pelanggan')
 fig_geografis = plt.figure(figsize=(10, 6))
 plt.barh(top_10_data_cust['customer_city'], top_10_data_cust['customer_id'], color='skyblue')
